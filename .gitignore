@@ -1,0 +1,24 @@
+# Arquivos SQL
+*.sql
+
+# Diretórios e arquivos de configuração específicos do IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Banco de dados e arquivos de backup
+*.db
+*.sql~
+*.bak
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações pessoais de usuário
+*.env
+.env.*
