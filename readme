@@ -1,0 +1,100 @@
+Este projeto tem como objetivo desenvolver um sistema de registro de alunos e suas notas em diversos cursos para uma instituição de ensino. O sistema utiliza um banco de dados relacional SQL para gerenciar as informações dos alunos, cursos e notas, permitindo operações básicas como inserção, consulta, atualização e exclusão de dados. As tabelas foram projetadas para manter a integridade referencial, com chaves estrangeiras e operações de exclusão em cascata.
+
+Tarefas:
+Criação do Banco de Dados: Criação de um banco de dados chamado Escola1.
+Criação das Tabelas:
+Tabela Alunos para armazenar informações dos alunos.
+Tabela Cursos para armazenar informações dos cursos.
+Tabela Notas para armazenar as notas dos alunos nos cursos.
+Inserção de Dados:
+Inserir dados de três alunos na tabela Alunos.
+Inserir dados de três cursos na tabela Cursos.
+Inserir cinco registros de notas na tabela Notas, associando os alunos aos cursos.
+Consultas:
+Listar todos os alunos e suas respectivas notas nos cursos.
+Calcular a média das notas para cada curso.
+Encontrar o aluno com a maior nota em cada curso.
+Atualização de Dados:
+Atualizar a nota de um aluno em um curso específico.
+Modificar o endereço de um aluno.
+Exclusão de Dados:
+Excluir um aluno e todas as suas notas associadas.
+Excluir um curso e todas as notas associadas.
+
+# Sistema de Registro de Alunos e Notas
+
+## Descrição
+
+Este projeto implementa um sistema de registro de alunos e suas notas em diversos cursos para uma instituição de ensino. O sistema é desenvolvido utilizando SQL para criar e gerenciar um banco de dados relacional que armazena informações sobre alunos, cursos e notas. 
+
+## Estrutura do Projeto
+
+- **Banco de Dados:** `Escola1`
+- **Tabelas:**
+  - `Alunos`: Armazena informações sobre os alunos.
+  - `Cursos`: Armazena informações sobre os cursos oferecidos.
+  - `Notas`: Armazena as notas dos alunos em cada curso.
+
+## Funcionalidades
+
+- **Inserção de Dados:**
+  - Inserção de alunos, cursos e notas nas respectivas tabelas.
+- **Consultas:**
+  - Listagem de alunos com suas respectivas notas em cada curso.
+  - Cálculo da média das notas por curso.
+  - Identificação do aluno com a maior nota em cada curso.
+- **Atualização de Dados:**
+  - Atualização da nota de um aluno em um curso.
+  - Modificação do endereço de um aluno.
+- **Exclusão de Dados:**
+  - Exclusão de um aluno e todas as suas notas.
+  - Exclusão de um curso e todas as notas associadas.
+
+## Estrutura do Código
+
+O projeto é implementado em um script SQL (`projeto.sql`), que contém:
+
+1. **Criação do Banco de Dados:**  
+   - `CREATE DATABASE Escola1;`
+   - `USE Escola1;`
+
+2. **Criação das Tabelas:**  
+   - Tabela `Alunos`
+   - Tabela `Cursos`
+   - Tabela `Notas`
+
+3. **Inserção de Dados:**
+   - Três alunos, três cursos e cinco notas.
+
+4. **Consultas:**
+   - Listar todos os alunos e suas notas.
+   - Calcular a média das notas por curso.
+   - Encontrar o aluno com a maior nota em cada curso.
+
+5. **Atualização de Dados:**
+   - Atualização de uma nota e do endereço de um aluno.
+
+6. **Exclusão de Dados:**
+   - Exclusão de um aluno e um curso, com suas respectivas notas.
+
+## Como Executar
+
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/sistema-registro-alunos.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd sistema-registro-alunos
+    ```
+
+3. Execute o script SQL em seu ambiente de banco de dados preferido (MySQL, MariaDB, etc.).
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
